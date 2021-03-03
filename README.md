@@ -43,6 +43,7 @@ So I can see my last saved location.
 
 ##### Scenarios (Acceptance criteria)
 
+```
 **Given** the customer has internet conectivity and location enabled
 
 **When** the customer push a save button
@@ -50,28 +51,28 @@ So I can see my last saved location.
 **Then** the app should save locally and remote the location
 
 **And** display the location at that moment
-
-
+```
+```
 **Given** the customer has internet conectivity and have location disabled
 
 **When** the customer push s save button
 
 **Then** the app should display a "Location is disabled" error message
-
-
+```
+```
 **Given** the customer has no internet conectivity and location service is enabled
 
 **When** the customer push a save button
 
 **Then** the app should save localy the location and display the location
-
-
+```
+```
 **Given** the customer has no internet conectivity and location service is disabled
 
 **When** the customer push a save button
 
 **Then** the app should display a "Location is disabled" error message.
-
+```
 #### Narrative #2
 
 As a user with saved data.
@@ -81,7 +82,7 @@ I want the app to load my last saved location
 So I can see my last saved location.
 
 ##### Scenarios (Acceptance criteria)
-
+```
 **Given** the customer has internet conectivity
 
 **When** the app loads
@@ -91,21 +92,21 @@ So I can see my last saved location.
 **And** save localy the location
 
 **And** display the location at that moment
-
-
+```
+```
 **Given** the customer has no internet conectivity
 
 **And** has local data
 
 **Then** the app should display the location at that moment
-
-
+```
+```
 **Given** the customer has no internet conectivity
 
 **And** doesn't have local data
 
 **Then** the app should display the message "Your last saved location can't be loaded"
-
+```
 ### General Requirements
 
 - If the application makes a network request, the user have to see a loading state.
