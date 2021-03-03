@@ -9,6 +9,12 @@ Test-driven development (TDD) is a software development process relying on **sof
 
 The software architecture of a program or computing system is the structure or structures of the system, which comprise software elements, the externally visible properties of those elements, and the relationships among them. [IBM](https://www.ibm.com/developerworks/rational/library/feb06/eeles/index.html#:~:text=The%20software%20architecture%20of%20a,and%20the%20relationships%20among%20them.)
 
+## Self Explanatory code (well-documented)
+
+Because refactoring code is a built-in step in TDD, you end up with a much cleaner codebase as you go. Apps built with TDD tend to have less duplication, fewer edge cases that aren’t thought through, and a better overall architecture.
+
+The test serves as a specification for what the code that will be written should do. As long as you’re writing good stories, your development team should be able to build exactly what you asked for. If your team agrees to use Acceptance Test-Driven Development, you can even write tests that describe how you want it to work in plain English!
+
 ## Develop time
 
 Isn’t Test Driven Development (TDD) twice the work? Should you do it anyway?
